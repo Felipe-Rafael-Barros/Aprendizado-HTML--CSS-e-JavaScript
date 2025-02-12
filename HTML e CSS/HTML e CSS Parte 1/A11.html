@@ -1,0 +1,22 @@
+<!DOCTYPE html> <!-- HTML5-->
+<html lang="pt-br"> <!-- linguagem do site-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinâmicas/Responsividade</title> <!-- Título da página-->
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tenta abrir esse site em vários dispositivos diferente ou tente diminuir e aumentar o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="A11/image_small.png" type="image/png">
+    <source media="(max-width: 1200px)" srcset="A11/image_medium.png" type="image/png">
+
+        <img src="A11/image_large.png" alt="">
+        
+    </picture>
+ 
+    
+</body>
+</html>

@@ -1,0 +1,6 @@
+Módulo A - Conhecimento básico
+Módulo B - Comandos Básicos do JS
+Módulo C - Entendendo DOM
+Módulo D - Condiçoes em JS
+Módulo E - Repetições em JS
+Módulo F - Avançado os estudo em JS

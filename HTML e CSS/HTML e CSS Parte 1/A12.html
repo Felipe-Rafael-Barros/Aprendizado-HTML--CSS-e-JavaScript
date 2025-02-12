@@ -1,0 +1,29 @@
+<!DOCTYPE html> <!-- HTML5-->
+<html lang="pt-br"> <!-- linguagem do site-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudio no Site</title> <!-- Título da página-->
+</head>
+<body>
+    <h1>Reproduzindo áudio</h1>
+    <p>Forma 1:</p>
+    <audio src="midia/Bump_Dyalla.mp3" controls ></audio>
+     <!-- Se quiser que o site ja inicie tocando pode usar o autoplay
+    <audio src="midia/Good_Energy_Dyalla.mp3" controls autoplay ></audio> 
+    -->
+    <p>Forma 2:</p>
+    <audio preload="metadata"  controls loop> <!--
+        <audio preload="metadata" autoplay controls>-->
+
+        <!-- Sistema atual de "if" e "else", se um não pega ele testa em outro, se ele não pegar passa pra outro e caso não consigo por o audio apresenta o erro-->
+        <source src="midia/Good_Energy_Dyalla.mp3" type="audio/mpeg">
+        <source src="midia/Good_Energy_Dyalla.ogg" type="audio/ogg">
+        <source src="midia/Good_Energy_Dyalla.wav" type="audio/wav">
+        <p>Infelizmente seu naveador não consegue reproduzir áudio</p>
+    </audio> 
+
+
+    
+</body>
+</html>

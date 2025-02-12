@@ -1,0 +1,17 @@
+A1 - Introdução ao primeiro documento
+A2 - Parágrafos
+A3 - Símbolos e Emoji
+A4 - Imagem/Favicon
+A5 - Hierarquia de Títulos
+A6 - Formatação de Textos
+A7 - Trabalhando com listas
+A8 - Links e Âncoras
+A9 - Link para Download
+A10 - Desafios
+A11 - Imagens Dinâmicas/Responsividade
+A12 - Colocando áudio no site
+A13 - Colando videos no site
+A14 - Desafio
+A15 - CSS Inline
+A16 - CSS Interno
+A17 - CSS Externo

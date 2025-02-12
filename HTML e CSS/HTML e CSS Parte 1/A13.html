@@ -1,0 +1,28 @@
+<!DOCTYPE html> <!-- HTML5-->
+<html lang="pt-br"> <!-- linguagem do site-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementando vídeos no site</title> <!-- Título da página-->
+</head>
+<body>
+    <!--Converter videos para arquivos menores use HardBrake
+        Tem videos que podem ser usado de graça na Pexels-->
+    <h1>Videos hospedados LOCALMENTE</h1>
+    <p>O custo fica elevado se botar localmente </p>
+    <video src="midia/Video1.mp4" controls poster="imagem1.png" loop width="200px"></video>
+    
+    <!-- If e else-->
+    <video controls autoplay loop width="200px">
+        <source src="midia/Video2.mp4" type="video/mp4">
+        <source src="midia/Video1.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade</p>
+    </video>
+    
+    <h1>Videos hospedados EXTERNAMENTE</h1>
+    <p> va no youtube, aperte compartilha e depois incorporar e depois cole no codigo. Vimeo é usado para hospedar tambem</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Eup5uWLvhqw?si=zDx6JyuYlKskSw4B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ 
+    
+</body>
+</html>

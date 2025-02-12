@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos Básicos do JS</title>
+</head>
+<body>
+    
+    <h1>Variáveis e Tipos</h1>
+    
+
+    <script>
+        /*window.alert("Minha primeira mensagem")
+        */
+        //window.confirm("Está gostando de JS?")
+        //window.prompt("Qual é seu nome?") // Vai perguntar o nome
+        
+        
+
+    </script>
+
+    <h1>Tratamento de dados</h1>
+
+    <script>
+        var nome = window.prompt("Qual é seu nome?") // Vai perguntar o nome
+        window.alert(`É um grande prazer em te conhecer ${nome}, ` + nome + ".")//+ serve para concatenação. a CRASE é usada para o ${} pegar
+        var numero = "3.5"
+        numero = Number.parseFloat(numero)
+        window.alert(numero)
+        numero = Number.parseInt(numero)
+        window.alert(numero)
+        document.write(`<h2>Seu nome tem ${nome.length} letras<h2>`)
+
+        /*São opções válidas as seguintes: 
+         Number(n)
+         String(n)
+         n.toSyting()
+         "O aluno com ${nome}"
+         s.lengh
+         s.toUpperCase()
+         s.toLowerCase()
+         numero.ToFixed(numeroDeCasaQueVoceQuer)
+         numero.ToFixed(numeroDeCasaQueVoceQuer).replace[".",","] trocando ponto por virgula
+
+         n1.toLocaleString("pt-BR", style="currency", currency = "BRL")
+         */
+
+    </script>
+
+</body>
+</html>
